@@ -81,8 +81,8 @@ def initPlayers(player_names):
     return players, nC, nV
 
 
-def initGame():
-    player_names = ["Annie","*Ben","*Carla"]
+def initGame(pnames):
+    player_names = pnames
     players, nC, nV = initPlayers(player_names)
     trash = []
     box = initBox(nV)

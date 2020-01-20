@@ -9,8 +9,9 @@ import Dominion
 import testUtility
 import random
 from collections import defaultdict
-
-box, players, trash, supply, supply_order = testUtility.initGame()
+#Supply only one player
+player_names = ["Annie"]
+box, players, trash, supply, supply_order = testUtility.initGame(player_names)
 
 #Play the game
 turn  = 0

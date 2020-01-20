@@ -10,7 +10,9 @@ import testUtility
 import random
 from collections import defaultdict
 
-box, players, trash, supply, supply_order = testUtility.initGame()
+#Supply a player and CPU with the same name
+player_names = ["Annie","*Annie"]
+box, players, trash, supply, supply_order = testUtility.initGame(player_names)
 
 #Play the game
 turn  = 0
